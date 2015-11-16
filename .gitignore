@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+# IDE
+.idea
+
+# repo
+bower_components
+node_modules
+
+# build
+**/.sass-cache
+**/css
