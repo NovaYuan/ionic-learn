@@ -10,4 +10,10 @@ app.config(function($stateProvider, $urlRouterProvider){
                         url: "/login",
                         templateUrl: 'page/login.html'
                 });
+
+        $stateProvider
+                .state('/',{
+                        url: "/",
+                        templateUrl: 'index.html'
+                })
 });
