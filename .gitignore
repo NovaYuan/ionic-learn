@@ -8,8 +8,10 @@
 
 # repo
 bower_components
-node_modules
 
 # build
 **/.sass-cache
 **/css
+
+#node_modules
+node_modules

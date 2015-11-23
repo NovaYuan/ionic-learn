@@ -1,6 +1,7 @@
 'use strict';
 var  http = require('http'),
         express = require('express'),
+        routes = require('./routes.js'),
         bodyParser = require('body-parser'),
         path = require("path"),
         fs   = require("fs"),
@@ -57,10 +58,11 @@ app.use (function (req, res) {
         });
 });
 
-app.get('/', function(request, response){
-        response.redirect('/index.html')
-});
+//app.get('/', function(request, response){
+//        response.redirect('/index.html')
+//});
+routes.configRoutes(app, server);
 
-app.get('/login', function(request, response){
-        response.redirect('/index.html')
-});
+//app.get('/login', function(request, response){
+//        response.redirect('/index.html')
+//});
