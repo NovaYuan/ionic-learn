@@ -16,5 +16,4 @@ app.config(function($stateProvider, $urlRouterProvider){
                         url: "/",
                         templateUrl: 'index.html'
                 })
-
 });

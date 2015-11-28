@@ -66,3 +66,12 @@ routes.configRoutes(app, server);
 //app.get('/login', function(request, response){
 //        response.redirect('/index.html')
 //});
+
+
+app.get('/', function(request, response){
+        response.redirect('/index.html')
+});
+
+app.get('/login', function(request, response){
+        response.redirect('/index.html')
+});

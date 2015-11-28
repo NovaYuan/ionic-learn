@@ -8,6 +8,7 @@
 
 # repo
 bower_components
+<<<<<<< HEAD
 
 # build
 **/.sass-cache
@@ -15,3 +16,10 @@ bower_components
 
 #node_modules
 node_modules
+=======
+node_modules
+
+# build
+**/.sass-cache
+**/css
+>>>>>>> remotes/NovaYuan/master
