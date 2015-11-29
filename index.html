@@ -6,30 +6,23 @@
         <title>人生所以</title>
         <link rel="stylesheet" href="bower_components/ionic/release/css/ionic.min.css"/>
         <link rel="stylesheet" href="css/screen.css"/>
+        <script src="bower_components/ionic/release/js/ionic.bundle.js"></script>
 </head>
 <body ng-app="myApp">
 <div class="header">
-        <div class="bar bar-header bar-energized">
+        <div class="bar bar-header bar-balanced">
                 <button class="button button-icon icon ion-navicon"></button>
                 <div class="h1 title">Today is Beautiful</div>
                 <button class="button button-clear button-icon icon ion-compose"></button>
         </div>
 </div>
+<div class="content" ui-view></div>
+<div class="bar bar-footer bar-balanced">
+        <div class="title">出自我</div>
+</div>
 
-<div ui-view></div>
-<!--<ng-view></ng-view>-->
-<!--<div class="content"></div>-->
-        <!--<div class="card">-->
-                <!--<h4>2015-11-14</h4>-->
-                <!--<div class="item item-text-wrap">-->
-                        <!--测试卡片内容-->
-                <!--</div>-->
-        <!--</div>-->
-<!--</div>-->
-<div class="footer"></div>
-<script src="bower_components/ionic/release/js/ionic.bundle.js"></script>
-<!--<script src="bower_components/ionic/release/js/ionic-angular.min.js"></script>-->
 <script src="js/app.js"></script>
 <script src="js/controller/loginController.js"></script>
+<script src="js/controller/listController.js"></script>
 </body>
 </html>

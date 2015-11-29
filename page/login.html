@@ -5,17 +5,17 @@
         <div class="list list-inset">
                 <form class="user" name="userForm" ng-submit="submit()">
                         <label class="item item-input">
-                        <span class="input-label icon-span">
-                                <i class="icon ion-social-reddit"></i>
-                        </span>
+                                <span class="input-label icon-span">
+                                        <i class="icon ion-social-reddit"></i>
+                                </span>
                                 <input type="text" name="username" placeholder="用户名"
                                        ng-required="true"
                                         ng-model="user.username">
                         </label>
                         <label class="item item-input">
-                        <span class="input-label icon-span">
-                                <i class="icon ion-android-lock"></i>
-                        </span>
+                                <span class="input-label icon-span" style="padding-right: 14px;">
+                                        <i class="icon ion-android-lock"></i>
+                                </span>
                                 <input ng-minlength="6"
                                        ng-maxlength="20"
                                        ng-required="true"
