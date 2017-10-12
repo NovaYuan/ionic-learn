@@ -1,2 +1,2 @@
-# life-because
-because life so life
+# ionic-learn
+learn-ionic
